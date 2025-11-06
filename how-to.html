@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works - The Itinerary Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #1a1a1a;
+            padding: 20px 0;
+            border-bottom: 1px solid #2a2a2a;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #DAA520 0%, #FFD700 50%, #DAA520 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+        }
+
+        .content {
+            padding: 60px 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #DAA520;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin: 40px 0 20px;
+            color: #DAA520;
+            border-bottom: 2px solid #2a2a2a;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin: 30px 0 15px;
+            color: #FFD700;
+        }
+
+        p, li {
+            color: #cccccc;
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .section {
+            background: #1a1a1a;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid #2a2a2a;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #DAA520 0%, #B8860B 100%);
+            color: #000;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #DAA520;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(218, 165, 32, 0.3);
+        }
+
+        footer {
+            background: #000;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 60px;
+            border-top: 1px solid #1a1a1a;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.7rem;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">The Itinerary Hub</a>
+        </div>
+    </header>
+
+    <div class="content container">
+        <h1>How Our Auction Process Works</h1>
+        
+        <div class="section">
+            <h2>For Sellers: Listing Your Livestock</h2>
+            
+            <h3>1. Create Your Account</h3>
+            <ul>
+                <li>Complete your profile with farm details</li>
+                <li>Verify your identity and bank details</li>
+                <li>Get approved as a seller</li>
+            </ul>
+
+            <h3>2. List Your Animals</h3>
+            <ul>
+                <li>Fill in detailed information about each animal</li>
+                <li>Upload high-quality photos and videos</li>
+                <li>Add health records and certifications</li>
+                <li>Set your starting price and reserve price</li>
+                <li>Choose auction duration (24-72 hours)</li>
+            </ul>
+
+            <h3>3. Manage Your Auction</h3>
+            <ul>
+                <li>Monitor bids in real-time</li>
+                <li>Receive notifications when you receive bids</li>
+                <li>Answer buyer questions through our secure messaging</li>
+                <li>Track auction performance</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>For Buyers: Bidding on Livestock</h2>
+            
+            <h3>1. Get Started</h3>
+            <ul>
+                <li>Create your free account</li>
+                <li>Complete your profile</li>
+                <li>Verify your payment method</li>
+                <li>Set up your preferences</li>
+            </ul>
+
+            <h3>2. Find Animals</h3>
+            <ul>
+                <li>Browse by category (cattle, sheep, goats, etc.)</li>
+                <li>Filter by location, breed, age, and price</li>
+                <li>Save favorite listings</li>
+                <li>Set up alerts for new listings</li>
+            </ul>
+
+            <h3>3. Bid with Confidence</h3>
+            <ul>
+                <li>Place bids with one click</li>
+                <li>Use proxy bidding (set your max bid)</li>
+                <li>Get outbid notifications</li>
+                <li>Watch the countdown to auction end</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>The Auction Process</h2>
+            
+            <h3>1. Auction Start</h3>
+            <ul>
+                <li>Auction begins at the scheduled time</li>
+                <li>Bidding remains open for the set duration</li>
+                <li>Countdown timer shows time remaining</li>
+            </ul>
+
+            <h3>2. During the Auction</h3>
+            <ul>
+                <li>Real-time bid updates</li>
+                <li>Automatic bid increments</li>
+                <li>Anti-sniping protection (auction extends if bids come in last minute)</li>
+                <li>Mobile notifications for important updates</li>
+            </ul>
+
+            <h3>3. Winning the Auction</h3>
+            <ul>
+                <li>Highest bid when time expires wins</li>
+                <li>Instant notification to both buyer and seller</li>
+                <li>Secure payment processing</li>
+                <li>Arrangement for transport/delivery</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>After the Auction</h2>
+            
+            <h3>For Winning Bidders:</h3>
+            <ul>
+                <li>Complete payment within 24 hours</li>
+                <li>Receive all documentation</li>
+                <li>Coordinate pickup/delivery</li>
+                <li>Leave feedback for the seller</li>
+            </ul>
+
+            <h3>For Sellers:</h3>
+            <ul>
+                <li>Receive payment (minus platform fees)</li>
+                <li>Provide health certificates</li>
+                <li>Arrange for animal transfer</li>
+                <li>Leave feedback for the buyer</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Our Security Measures</h2>
+            <ul>
+                <li>Secure payment processing</li>
+                <li>Identity verification for all users</li>
+                <li>Escrow service for high-value transactions</li>
+                <li>Dispute resolution process</li>
+                <li>24/7 customer support</li>
+            </ul>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="coming-soon.html" class="btn">Back to Home</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 The Itinerary Platform. All rights reserved.</p>
+            <p style="margin-top: 10px; color: #888;">Connecting farmers and buyers across South Africa</p>
+        </div>
+    </footer>
+</body>
+</html>
